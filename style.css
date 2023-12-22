@@ -4,17 +4,51 @@
     margin: 0px;
 }
 
+.container {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    min-height:100vh;
+    
+}
 
 /* ============== Font Styles ============== */
+li {
+    list-style-type: none;
+}
 
 
+/* ============== Header Styles ============ */
 
-/* ============== Header Styles ============== */
+.header {
+    grid-row: 1/2;
+    background-color: grey;
+}
+
+.search-and-profile *{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner * {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner .greeting {
+    display: flex;
+    flex-direction: column;
+}
 
 
+/* ============== Sidebar Styles =========== */
 
-/* ============== Sidebar Styles ============== */
-
+.sidebar {
+    background-color: aqua;
+    grid-row: 1/3;
+}
 
 
 /* ============== Main Styles ============== */
+
