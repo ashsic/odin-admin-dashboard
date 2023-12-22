@@ -80,6 +80,7 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    
 }
 
 .your-projects {
@@ -91,7 +92,21 @@ main {
     background-color: white;
     height: 200px;
     width: 300px;
-    
+    padding: 24px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.card-buttons > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    justify-content: right;
 }
 
 .cards {
@@ -104,8 +119,10 @@ main {
 
 .announcements {
     background-color: white;
+    border-radius: 4px;
 }
 
 .trending {
     background-color: white;
+    border-radius: 4px;
 }
